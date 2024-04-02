@@ -18,12 +18,12 @@ pipeline {
         }
         stage('Create a image') {
             steps {
-               sh 'docker build -t aseem .'
+               sh 'docker build -t aseem1 .'
             }
         }
         stage('Docker Container app') {
             steps {
-               sh 'docker run -d -p 9000:8080 -t aseem'
+               sh 'docker run -d -p 9000:8080 -t aseem1'
             }
         }
     }
