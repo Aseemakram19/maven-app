@@ -1,9 +1,11 @@
 # Project Setup using below tools
 
-1) Maven
-2) Git Hub
-3) Jenkins
-4) Docker
+1) Maven - Build tool
+2) Git Hub - SCM
+3) Jenkins - CICD TOOL
+4) Docker _ container
+5) Nginx -  Webserver
+6) SSL - cerbot
 
 # Step-1 : Jenkins Server Setup in Linux VM #
 
@@ -88,8 +90,12 @@ sudo docker version
 # Step - 4 : Create Jenkins Job #
 
 - **Stage-1 : Clone Git Repo** <br/> 
+
 - **Stage-2 : Maven Build** <br/>
+
 - **Stage-3 : Create Docker Image** <br/>
+
+
 - **Stage-4 : Create Docker Container** <br/>
 	
 # Step - 5 : Trigger Jenkins Job #
@@ -103,5 +109,11 @@ sudo docker version
 URL : http://public-ip:port/
 	
 # We are done with our Setup #
+
+# Step - 7 : Nginx webserver #
+
+# Step - 8 : Domain #
+
+# Step - 9 : SSL certificate #
 	
-## Step - 8 : After your practise, delete resources we have used in AWS Cloud to avoid billing ##
+# Step - 10 : After your practise, delete resources we have used in AWS Cloud to avoid billing ##
