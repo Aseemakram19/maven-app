@@ -41,7 +41,7 @@ pipeline {
         
         stage('Run Docker Container') {
             steps {
-                sh 'docker run -d -p 9000:8080 --name aseem_container -t aseem1'
+                sh 'docker run -d -p 9000:8080 --name aseem_container1 -t aseem1'
             }
         }
     }
